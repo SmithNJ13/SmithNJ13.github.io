@@ -83,23 +83,22 @@ const TeamBanner = ({ team, icon, name, colour }) => {
   }
   return (
     <>
-      <div id="teamBannerWrapper">
-          <h1 id="teamName">{name}</h1>
-          <p>xG:</p>
-          <div id="inputArea">
+    <div id="teamBannerWrapper">
+        <h1 id="teamName">{name}</h1>
+        <p>xG:</p>
+        <div id="inputArea">
             <input id="xG" type="value" placeholder="0.0"></input>
             <button id="button">✔️</button>
             <input id="xG" type="number" placeholder="0.0" value={pxG} onChange={(e) => setpxG(parseFloat(e.target.value))}/>
             <button id="button" onClick={handleClick}>✔️</button>
-          </div>
         </div>
-        <div className="shape">
-            <Triangle width={369} height={100} fill={{color: colour}}/>
-        </div>
-      </div>
+    </div>
+    <div className="shape">
+        <Triangle width={369} height={100} fill={{color: colour}}/>
+    </div>
     </>
-  );
-};`,Wi=({title:e,bulletOne:t="",bulletTwo:n="",bulletThree:r="",scale:i,rotation:s,posY:o,posX:a,onClick:l})=>{const[u,d]=C.useState(!1);return c.jsx("div",{className:`relative w-[16em] h-[16em] p-[5px] m-[1rem] bg-yellow-200 text-black shadow-lg shadow-black rounded-md transition-all duration-300 transform ${u?"z-10 shadow-4xl shadow-black hover:cursor-pointer":""}`,style:{scale:u?`${i}`:"",transform:u?`rotate(${s})`:"rotate(0deg)",top:o,left:a},onMouseEnter:()=>d(!0),onMouseLeave:()=>d(!1),onClick:l,children:c.jsxs("div",{children:[c.jsx("h2",{className:"text-xl align-center text-center font-bold w-full",children:e}),c.jsxs("div",{className:"text-lg ml-[1rem] my-[1rem]",children:[c.jsx("li",{children:t}),c.jsx("li",{children:n}),c.jsx("li",{children:r})]})]})})},H2=({onClick:e})=>c.jsx("div",{className:"flex w-full justify-center my-[2rem]",children:c.jsx("h1",{className:"hover:cursor-pointer hover:text-ivory font-bold text-4xl w-min border-[2px] border-white rounded-[1rem] p-[5px]",onClick:e,children:"BACK"})});var ug={exports:{}};(function(e){var t=typeof window<"u"?window:typeof WorkerGlobalScope<"u"&&self instanceof WorkerGlobalScope?self:{};/**
+    )
+}`,Wi=({title:e,bulletOne:t="",bulletTwo:n="",bulletThree:r="",scale:i,rotation:s,posY:o,posX:a,onClick:l})=>{const[u,d]=C.useState(!1);return c.jsx("div",{className:`relative w-[16em] h-[16em] p-[5px] m-[1rem] bg-yellow-200 text-black shadow-lg shadow-black rounded-md transition-all duration-300 transform ${u?"z-10 shadow-4xl shadow-black hover:cursor-pointer":""}`,style:{scale:u?`${i}`:"",transform:u?`rotate(${s})`:"rotate(0deg)",top:o,left:a},onMouseEnter:()=>d(!0),onMouseLeave:()=>d(!1),onClick:l,children:c.jsxs("div",{children:[c.jsx("h2",{className:"text-xl align-center text-center font-bold w-full",children:e}),c.jsxs("div",{className:"text-lg ml-[1rem] my-[1rem]",children:[c.jsx("li",{children:t}),c.jsx("li",{children:n}),c.jsx("li",{children:r})]})]})})},H2=({onClick:e})=>c.jsx("div",{className:"flex w-full justify-center my-[2rem]",children:c.jsx("h1",{className:"hover:cursor-pointer hover:text-ivory font-bold text-4xl w-min border-[2px] border-white rounded-[1rem] p-[5px]",onClick:e,children:"BACK"})});var ug={exports:{}};(function(e){var t=typeof window<"u"?window:typeof WorkerGlobalScope<"u"&&self instanceof WorkerGlobalScope?self:{};/**
  * Prism: Lightweight, robust, elegant syntax highlighting
  *
  * @license MIT <https://opensource.org/licenses/MIT>
